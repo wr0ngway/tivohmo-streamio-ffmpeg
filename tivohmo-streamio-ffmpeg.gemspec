@@ -5,12 +5,12 @@ $:.unshift lib unless $:.include?(lib)
 require "ffmpeg/version"
 
 Gem::Specification.new do |s|
-  s.name        = "streamio-ffmpeg"
+  s.name        = "tivohmo-streamio-ffmpeg"
   s.version     = FFMPEG::VERSION
-  s.authors     = ["David Backeus"]
+  s.authors     = ["David Backeus", "Ryan Lovelett", "Matt Conway"]
   s.email       = ["david@streamio.com"]
-  s.homepage    = "http://github.com/streamio/streamio-ffmpeg"
-  s.summary     = "Wraps ffmpeg to read metadata and transcodes videos."
+  s.homepage    = "http://github.com/wr0ngway/tivohmo-streamio-ffmpeg"
+  s.summary     = "Forked from streamio-ffmpeg for use by tivohmo gem"
 
   s.add_dependency('multi_json', '~> 1.8')
 
